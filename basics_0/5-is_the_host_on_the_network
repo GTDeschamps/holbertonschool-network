@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ping the network 5 times
- if [ $# -gt 0 ];
+if [ $# -gt 0 ]; then
 	ping -c 5 "ip_address"
 else
         echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
